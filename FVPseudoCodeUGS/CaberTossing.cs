@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BasicController : MonoBehaviour
+public class CaberTossing : MonoBehaviour
 {
     //Rigidbody2D rb;
     //public GameObject Caber;
@@ -19,7 +19,10 @@ public class BasicController : MonoBehaviour
     void Update()
     {
         //Controller D = Forward, A = Backwards, Release = Space
-        //
+        //if getkeydown.Space ++ character in red zone
+        //{
+//          using physics, throw Caber at 
+       // }
         
     }
     //Meter red to green
