@@ -29,4 +29,7 @@ public class BasicController : MonoBehaviour
           //speed * 2
         // }
     }
+    //Competitors
+    //We could create 1,2,3 characters which would be chosen with random generator.
+    // each character will be set with a static speed determining how fast they complete the course. 
 }
