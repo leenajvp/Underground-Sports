@@ -2,17 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PJObstacles : MonoBehaviour
+public class FurBall : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject obstacle;
+    PJGlobalData gd;
+    Rigidbody2D rb;
+
     void Start()
     {
-        
+        gd = GameObject.Find("GameManager").GetComponent<PJGlobalData>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if (collision.gameObject.tag == ("Player"))
+        {
+            PJGlobalData.lives--;
+            GameObject.Find("GameManager").GetComponent<PJGlobalData>().UpdateLives();
+        }
     }
 }
