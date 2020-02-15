@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FurBall : MonoBehaviour
+public class PJObstacles : MonoBehaviour
 {
     public GameObject obstacle;
     PJGlobalData gd;
@@ -20,5 +20,10 @@ public class FurBall : MonoBehaviour
             PJGlobalData.lives--;
             GameObject.Find("GameManager").GetComponent<PJGlobalData>().UpdateLives();
         }
+    }
+
+    private void DisableMovement()
+    {
+
     }
 }

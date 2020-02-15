@@ -5,6 +5,8 @@ using UnityEngine;
 public class BasicMovementControl : MonoBehaviour
 {
     public float Speed;
+    public float SlowerSpeed;
+    public GameObject Water;
 
     private Rigidbody2D rb;
     // Start is called before the first frame update
@@ -20,7 +22,7 @@ public class BasicMovementControl : MonoBehaviour
     {
         CalculateMovement();
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             float jumpVelocity = 10f;
             rb.velocity = Vector2.up * jumpVelocity;
@@ -33,6 +35,18 @@ public class BasicMovementControl : MonoBehaviour
 
         transform.Translate(Vector2.right * horizontalInput * Speed * Time.deltaTime);
     }
-    
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject == Water)
+            {
+            Speed = 3;
+            }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Speed = 6;
+    }
 }
 

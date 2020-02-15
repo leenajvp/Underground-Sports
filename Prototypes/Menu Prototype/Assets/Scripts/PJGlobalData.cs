@@ -5,9 +5,10 @@ using UnityEngine;
 public class PJGlobalData : MonoBehaviour
 {
     public GameObject Player;
-    public int lives = 3;
+    static public int lives = 3;
 
     public GameObject[] pLives;
+
     // Start is called before the first frame update
     private void Awake()
     {
