@@ -7,13 +7,14 @@ public class BasicMovementControl : MonoBehaviour
     public float Speed;
     public float SlowerSpeed;
     public GameObject Water;
+    public AnimationState idle;
 
     private Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        transform.position = new Vector2(0, 0);
+        transform.position = new Vector2(-4.18f, 2.63f);
     }
 
     // Update is called once per frame
@@ -32,6 +33,7 @@ public class BasicMovementControl : MonoBehaviour
     { 
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
+        //AnimationState == run;
 
         transform.Translate(Vector2.right * horizontalInput * Speed * Time.deltaTime);
     }
@@ -40,7 +42,7 @@ public class BasicMovementControl : MonoBehaviour
     {
         if (collision.gameObject == Water)
             {
-            Speed = 3;
+            Speed = 2;
             }
     }
 

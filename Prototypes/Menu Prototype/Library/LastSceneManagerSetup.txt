@@ -1,13 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/PacuJawiPrototype.unity
-=======
-<<<<<<< Updated upstream
-- path: Assets/Scenes/HotDogEatingScene.unity
-=======
-- path: Assets/Scenes/PacuJawiPrototype.unity
->>>>>>> Stashed changes
->>>>>>> master
+- path: Assets/Scenes/WifeCarrying.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
