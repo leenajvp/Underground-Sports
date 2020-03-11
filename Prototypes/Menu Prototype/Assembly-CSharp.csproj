@@ -64,8 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\MenuTransition.cs" />
-    <Compile Include="Assets\Scripts\CountDown.cs" />
-    <Compile Include="Assets\Scripts\CountDownS.cs" />
     <Compile Include="Assets\Scripts\PacuJawiMovement.cs" />
     <Compile Include="Assets\Scripts\PJGlobalData.cs" />
     <Compile Include="Assets\Scripts\PJObstacles.cs" />
