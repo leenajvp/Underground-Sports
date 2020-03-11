@@ -5,11 +5,14 @@ using UnityEngine;
 public class PacuJawiMovement : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float HorizontalMoveSpeed = 5f;
+    public float HorizontalMoveSpeed = 1f;
     public float VerticalMoveSpeed = 0.1f;
-    private Rigidbody2D rb;
-    Vector2 direction = new Vector2(10f, 0f);
+    
+    Vector2 direction = new Vector2(1f, 0f);
     public bool activateMovement = true;
+
+    private Rigidbody2D rb;
+
 
     private void Awake()
     {
@@ -54,9 +57,10 @@ public class PacuJawiMovement : MonoBehaviour
             if (collision.gameObject.tag == ("Obstacle"))
             {
             activateMovement = false;
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(5);
             activateMovement = true;
             }
     }
-    //When reach goal stop
+    
+    
 }

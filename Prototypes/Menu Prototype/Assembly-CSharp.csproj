@@ -64,10 +64,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\MenuTransition.cs" />
-    <Compile Include="Assets\Scripts\BasicMovementControl.cs" />
     <Compile Include="Assets\Scripts\PacuJawiMovement.cs" />
     <Compile Include="Assets\Scripts\PJGlobalData.cs" />
     <Compile Include="Assets\Scripts\PJObstacles.cs" />
+    <Compile Include="Assets\Scripts\PJSceneManager.cs" />
+    <Compile Include="Assets\Scripts\WCGroundCheck.cs" />
+    <Compile Include="Assets\Scripts\WCMovement.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/44746/Desktop/COMP 1826/UGS/Underground-Sports/Prototypes/Menu Prototype/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
