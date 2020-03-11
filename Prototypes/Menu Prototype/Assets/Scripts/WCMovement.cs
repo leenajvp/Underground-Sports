@@ -55,13 +55,13 @@ public class WCMovement : MonoBehaviour
         Speed = 6;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject == Ground)
         {
             GroundCheck = true;
         }
-        else
+        else if (collision.gameObject == null)
         {
             GroundCheck = false;
         }
