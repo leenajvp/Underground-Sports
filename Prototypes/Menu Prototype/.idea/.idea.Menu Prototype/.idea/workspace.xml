@@ -34,7 +34,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CaberToss/GlobalData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PacuJawiMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Stella's Interactive and Games/Prototype/CaberTossing/CaberPrototype/Assets/Scripts/ThrowIt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/StateCache/SceneView/63aa74-mainStage.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WCMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PJGlobalData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -102,7 +104,8 @@
       <workItem from="1581802847227" duration="93000" />
       <workItem from="1583928653476" duration="260000" />
       <workItem from="1583931102175" duration="764000" />
-      <workItem from="1583935294602" duration="699000" />
+      <workItem from="1583935294602" duration="934000" />
+      <workItem from="1584022295526" duration="599000" />
     </task>
     <servers />
   </component>
