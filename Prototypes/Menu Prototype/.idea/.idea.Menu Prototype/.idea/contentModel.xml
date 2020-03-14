@@ -10,6 +10,7 @@
         <e p="Scripts" t="Include">
           <e p="CaberToss" t="Include">
             <e p="CaberController.cs" t="Include" />
+            <e p="CaberRespawn.cs" t="Include" />
             <e p="CaberRun.cs" t="Include" />
             <e p="GlobalData.cs" t="Include" />
             <e p="Scoring.cs" t="Include" />

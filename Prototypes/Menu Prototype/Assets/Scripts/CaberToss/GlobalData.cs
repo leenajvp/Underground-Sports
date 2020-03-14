@@ -7,8 +7,10 @@ using UnityEngine.SceneManagement;
 public class GlobalData : MonoBehaviour
 {
     static public int Scoring;
+    public GameObject player;
     
     public Text scoreText;
+    public Text scoreText2;
     
     void Awake()
     {
@@ -19,6 +21,7 @@ public class GlobalData : MonoBehaviour
     public void SetDistance()
     {
         scoreText.text = Scoring.ToString();
+        scoreText2.text = Scoring.ToString();
     }
 
     // Update is called once per frame
