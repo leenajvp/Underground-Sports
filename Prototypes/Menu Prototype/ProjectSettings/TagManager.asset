@@ -6,6 +6,9 @@ TagManager:
   tags:
   - logo
   - Obstacle
+  - StopMoving
+  - Caber
+  - ScoreZone
   layers:
   - Default
   - TransparentFX

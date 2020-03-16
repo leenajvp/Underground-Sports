@@ -13,6 +13,7 @@
             <e p="CaberRespawn.cs" t="Include" />
             <e p="CaberRun.cs" t="Include" />
             <e p="GlobalData.cs" t="Include" />
+            <e p="ScoreManager.cs" t="Include" />
             <e p="Scoring.cs" t="Include" />
             <e p="ThrowIt.cs" t="Include" />
           </e>
