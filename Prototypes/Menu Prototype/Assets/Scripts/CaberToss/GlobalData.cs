@@ -8,8 +8,8 @@ public class GlobalData : MonoBehaviour
 {
     static public int Scoring;
     public GameObject player;
-    static public int Lives = 3;
-    public GameObject[] pLives;
+    /*static public int Lives = 3;
+    public GameObject[] pLives;*/
     
     public Text scoreText;
     public Text scoreText2;
@@ -18,7 +18,7 @@ public class GlobalData : MonoBehaviour
     {
         SetDistance();
         Scoring = 0;
-        Lives = 3;
+        /*Lives = 3;*/
     }
     
     public void SetDistance()
@@ -27,7 +27,7 @@ public class GlobalData : MonoBehaviour
         scoreText2.text = Scoring.ToString();
     }
 
-    public void UpdateLives()
+    /*public void UpdateLives()
     {
         for (int i = 0; i < pLives.Length; i++)
         {
@@ -44,5 +44,5 @@ public class GlobalData : MonoBehaviour
         {
             //EndGame();
         }
-    }
+    }*/
 }

@@ -40,6 +40,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PJObstacles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CaberToss/Scoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CaberToss/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CaberToss/ThrowIt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CaberToss/GlobalData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PacuJawiMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Stella's Interactive and Games/Prototype/CaberTossing/CaberPrototype/Assets/Scripts/ThrowIt.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,13 +55,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/WCMovement.cs" />
         <option value="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" />
         <option value="$PROJECT_DIR$/Library/StateCache/SceneView/63aa74-mainStage.json" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/CaberRun.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PJObstacles.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/CaberController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/ScoreManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/CaberRespawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/GlobalData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/Scoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/ThrowIt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/CaberRespawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/CaberRun.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/CaberController.cs" />
       </list>
     </option>
   </component>
@@ -120,6 +122,7 @@
       <workItem from="1584022295526" duration="599000" />
       <workItem from="1584182877617" duration="5140000" />
       <workItem from="1584359798508" duration="8049000" />
+      <workItem from="1584449644011" duration="3136000" />
     </task>
     <servers />
   </component>

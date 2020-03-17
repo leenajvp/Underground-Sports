@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CaberRun : MonoBehaviour
 {
@@ -10,10 +11,10 @@ public class CaberRun : MonoBehaviour
     public bool canMove = true;
     public Vector3 startPosition;
     
-    private void Awake()
+    /*private void Awake()
     {
         startPosition = transform.position;
-    }
+    }*/
     void Update()
     {
         if (canMove == true)
@@ -35,9 +36,9 @@ public class CaberRun : MonoBehaviour
     
     public void Retry()
     {
-        /*Scene loadedLevel = SceneManager.GetActiveScene ();
-        SceneManager.LoadScene (loadedLevel.buildIndex);*/
-        transform.position = startPosition;
+        Scene loadedLevel = SceneManager.GetActiveScene ();
+        SceneManager.LoadScene (loadedLevel.buildIndex);
+        /*transform.position = startPosition;*/
     }
     
 

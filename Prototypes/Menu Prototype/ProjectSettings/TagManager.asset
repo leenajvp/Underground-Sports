@@ -9,6 +9,7 @@ TagManager:
   - StopMoving
   - Caber
   - ScoreZone
+  - CaberBody
   layers:
   - Default
   - TransparentFX

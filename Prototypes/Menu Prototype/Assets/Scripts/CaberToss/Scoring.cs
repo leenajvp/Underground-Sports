@@ -16,8 +16,8 @@ public class Scoring : MonoBehaviour
             GlobalData.Scoring += value;
             GameObject.Find("GameBoss").GetComponent<GlobalData>().SetDistance();
             distance.SetActive(true);
-            GlobalData.Lives--;
-            GameObject.Find("GameBoss").GetComponent<GlobalData>().UpdateLives();
+            /*GlobalData.Lives--;
+            GameObject.Find("GameBoss").GetComponent<GlobalData>().UpdateLives();*/
         }
     }
     

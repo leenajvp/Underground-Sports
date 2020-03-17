@@ -20,12 +20,4 @@ public class CaberRespawn : MonoBehaviour
         startRotation = transform.rotation;
 
     }*/
-
-    public void Retry()
-    {
-        Scene loadedLevel = SceneManager.GetActiveScene ();
-        SceneManager.LoadScene (loadedLevel.buildIndex);
-        /*transform.position = startPosition;
-        transform.rotation = startRotation;*/
-    }
 }

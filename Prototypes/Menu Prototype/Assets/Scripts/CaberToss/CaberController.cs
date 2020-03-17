@@ -24,6 +24,7 @@ public class CaberController : MonoBehaviour
     public Image fillImage;
     public GameObject MeterBar;
     public GameObject Holder;
+    public GameObject BarActivator;
 
     void Start()
     {
@@ -49,6 +50,7 @@ public class CaberController : MonoBehaviour
         transform.rotation = Quaternion.Lerp(_fromRotation, _toRotation, Time.deltaTime*lerpSpeed);
        // transform.Rotate (rotateSpeed,0,0);
        MeterBar.SetActive(false);
+       BarActivator.SetActive(false);
     }
 
 
@@ -60,6 +62,14 @@ public class CaberController : MonoBehaviour
             MeterBar.SetActive(true);
             Holder.SetActive(false);
             Debug.Log("wehit");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == ("StopMoving"))
+        {
+            MeterBar.SetActive(false);
         }
     }
 }
