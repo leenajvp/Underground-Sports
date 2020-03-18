@@ -34,6 +34,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CaberToss/WinCondition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/StateCache/SceneView/63aa74-mainStage.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WCMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PJGlobalData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -58,11 +59,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PJObstacles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/ScoreManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/GlobalData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/Scoring.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/ThrowIt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/CaberRespawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/CaberRun.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/CaberController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/Scoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CaberToss/WinCondition.cs" />
       </list>
     </option>
   </component>
@@ -123,6 +125,7 @@
       <workItem from="1584182877617" duration="5140000" />
       <workItem from="1584359798508" duration="8049000" />
       <workItem from="1584449644011" duration="3136000" />
+      <workItem from="1584562092085" duration="952000" />
     </task>
     <servers />
   </component>

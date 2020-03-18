@@ -16,6 +16,7 @@
             <e p="ScoreManager.cs" t="Include" />
             <e p="Scoring.cs" t="Include" />
             <e p="ThrowIt.cs" t="Include" />
+            <e p="WinCondition.cs" t="Include" />
           </e>
           <e p="CountDown.cs" t="Include" />
           <e p="CountDownS.cs" t="Include" />

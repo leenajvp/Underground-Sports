@@ -8,7 +8,7 @@ public class Scoring : MonoBehaviour
 {
     public int value = 0;
     public GameObject distance;
- 
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Caber")
