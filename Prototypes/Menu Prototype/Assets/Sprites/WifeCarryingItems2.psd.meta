@@ -23,6 +23,9 @@ TextureImporter:
   - first:
       213: -7546231058238124316
     second: WifeCarryingItems2_6
+  - first:
+      213: 5579037637814627399
+    second: WifeCarryingItems2_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -121,7 +124,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f39e5297b5cdc16428f875e323f571f5
+      spriteID: f5cc8c9d318dac8498efe60d8a4ca656
       internalID: 1129748212133283358
       vertices: []
       indices: 
@@ -142,7 +145,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b4d82167b0d34b49bbbf27ae655c712
+      spriteID: 088d74be0edb38a4f905668419343000
       internalID: 7046415586171425470
       vertices: []
       indices: 
@@ -150,6 +153,27 @@ TextureImporter:
       weights: []
     - serializedVersion: 2
       name: WifeCarryingItems2_2
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 400
+        width: 16
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45a860385ec90c449a70719ee395bdf
+      internalID: -541602705031531278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WifeCarryingItems2_3
       rect:
         serializedVersion: 2
         x: 23
@@ -163,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ace71683cfe16843905f4300ad58634
-      internalID: -541602705031531278
+      spriteID: 66eac61086c9b264a8d0e7d5d8fb9133
+      internalID: 4466355766966530630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WifeCarryingItems2_3
+      name: WifeCarryingItems2_4
       rect:
         serializedVersion: 2
         x: 176
@@ -184,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c395c7f2998f9144e95f0aabb63e45c5
-      internalID: 4466355766966530630
+      spriteID: 7d3f35630ad0b1f4282ff0de9caf23f1
+      internalID: -1725060249133716538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WifeCarryingItems2_4
+      name: WifeCarryingItems2_5
       rect:
         serializedVersion: 2
         x: 321
@@ -205,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b2dcb994014af04cbea5875d0080cd0
-      internalID: -1725060249133716538
+      spriteID: 0137f86cbd83ce44596ae64ca2b03390
+      internalID: -3454827606368926094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WifeCarryingItems2_5
+      name: WifeCarryingItems2_6
       rect:
         serializedVersion: 2
         x: 466
@@ -226,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b668504ee425c246819b104d9137eb1
-      internalID: -3454827606368926094
+      spriteID: 4cc67d0e978cf394da92151b37a0ead0
+      internalID: -7546231058238124316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WifeCarryingItems2_6
+      name: WifeCarryingItems2_7
       rect:
         serializedVersion: 2
         x: 775
@@ -247,8 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 182bac93a02d62f4a9e2cb9d7026d90a
-      internalID: -7546231058238124316
+      spriteID: 0b3999ff732c859419836e9a2683b682
+      internalID: 5579037637814627399
       vertices: []
       indices: 
       edges: []
